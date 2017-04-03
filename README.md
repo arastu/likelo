@@ -40,6 +40,7 @@ Then edit .likeo.yaml and add consumer key, consumer secret, access token, and a
 cd $GOPATH/src/github.com/arastu/likelo
 make likelo
 ```
+This is create likelo binary excutable file in $GOPATH/src/github.com/arastu/likelo folder.
 
 ### Run likelo
 ```bash
