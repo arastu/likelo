@@ -1,0 +1,23 @@
+delay: 2s
+
+exclude:
+  user:
+    - jack
+    - google
+  word: #regex support
+    - windows
+    - microsoft
+    - \b\w{4}\b
+  hashtag: #case insensenetive
+    - wtf
+    - golive
+
+webhook:
+  - "https://example.com/like/hook"
+  - "https://example2.com/email/hook"
+
+twitter:
+  consumer-key: ""
+  consumer-secret: ""
+  access-token: ""
+  access-secret: ""
