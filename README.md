@@ -1,6 +1,16 @@
 # likelo
 Twitter auto like bot
 
+> Where do likelo idea come from?
+>
+> I have a friend named [Arash](https://github.com/ara4sh) that folow me in twitter, 
+> every time i post somthing or even replay to my friend
+> after a shord period of time, I get a notification that arash like my post or reply :)
+>
+> Likelo simulate arash for your folowers :))
+    
+
+
 ## How To Strting to Like, like a bot :)
 
 ### Dependency
