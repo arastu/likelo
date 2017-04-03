@@ -1,1 +1,6 @@
+language: go
 
+go:
+  - 1.8
+  
+install: make likelo
