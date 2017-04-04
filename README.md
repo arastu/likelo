@@ -18,7 +18,7 @@ Note: You will need **[Go 1.7](https://golang.org/dl/)** or newer.
 
 
 ### Create a twitter application
-While signed in under your Twitter account, visit dev.twitter.com/apps.
+While signed in under your Twitter account, visit [https://apps.twitter.com](https://apps.twitter.com).
 Click Create an application.
 Assign a name, description, and URL to the application. If you don't know the URL of your application yet, that's fine, you can change it later when you know (actually this is not required for likelo). Click the Yes, I agree check box, fill out the CAPTCHA, and click Create your Twitter application.
 Once the application has successfully created, visit the Settings tab for the application. Select the Read and Write radio button and click Update this Twitter application's settings. This sets the proper permissions for the application to query and post new tweets to the account.
