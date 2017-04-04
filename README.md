@@ -3,15 +3,15 @@ Twitter auto like bot
 
 > Where do likelo idea come from?
 >
-> I have a friend named [Arash](https://github.com/ara4sh) that folow me in twitter, 
-> every time i post somthing or even replay to my friend
-> after a shord period of time, I get a notification that arash like my post or reply :)
+> I have a friend named [Arash](https://github.com/ara4sh)([AraaX on twitter](https://twitter.com/Ara4Sh)) that folow me in twitter, 
+> every time i post somthing or even replay to my friend,
+> after a shord period of time, I got a notification that arash like my post or reply :)
 >
-> Likelo simulate arash for your folowers :))
+> Likelo simulate Arash for your folowers :))
     
 
 
-## How To Strting to Like, like a bot :)
+## How To Starting to Like, like a bot :)
 
 ### Dependency
 Note: You will need **[Go 1.7](https://golang.org/dl/)** or newer.
@@ -27,7 +27,7 @@ Once the application has successfully been created, visit the Settings tab for t
 
 Visit the Keys and Access Tokens tab. Take note of the consumer key, consumer secret, access token, and access secret — you'll need these for likelo bot. If the access token/secret are not shown, click Create my access token at the bottom of the page.
 
-  consumer key, consumer secret, access token, and access secret is required for likelo config.
+> #### consumer key, consumer secret, access token, and access secret is required for using in likelo config.
 
 ### Download likelo 
 download likelo with go get
