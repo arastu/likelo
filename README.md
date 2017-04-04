@@ -5,7 +5,7 @@ Twitter auto like bot
 >
 > I have a friend named [Arash](https://github.com/ara4sh)([AraaX on twitter](https://twitter.com/Ara4Sh)) that folow me in twitter, 
 > every time i post somthing or even replay to my friend,
-> after a shord period of time, I got a notification that arash like my post or reply :)
+> after a shord period of time, I got a notification that Arash like my post or reply :)
 >
 > Likelo simulate Arash for your folowers :))
     
