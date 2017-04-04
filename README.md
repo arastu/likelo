@@ -11,7 +11,7 @@ Twitter auto like bot
     
 
 
-## How To Starting to Like, like a bot :)
+## How To Starting To Like, Like A Bot :)
 
 ### Dependency
 Note: You will need **[Go 1.7](https://golang.org/dl/)** or newer.
