@@ -4,7 +4,7 @@ Twitter auto like bot
 > Where does likelo's idea come from?
 >
 > I have a friend named [Arash](https://github.com/ara4sh)([AraaX on twitter](https://twitter.com/Ara4Sh)) who follows me in twitter, 
-> every time I post something or even replay to my friend,
+> every time I post something or even reply to my friend,
 > after a short period of time, I get a notification which says Arash liked my post or reply :)
 >
 > Likelo simulates Arash for your followers :))
