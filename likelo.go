@@ -48,9 +48,16 @@ type oauth struct {
 func (l *Likelo) Run() {
 	// Convenience Demux demultiplexed stream messages
 	demux := twitter.NewSwitchDemux()
+	excludeUsers := l.config.GetStringSlice("exclude.user")
 
 	demux.Tweet = func(tweet *twitter.Tweet) {
 		go func(tweet *twitter.Tweet) {
+			for _, user := range excludeUsers {
+				if tweet.User.ScreenName == user {
+					return
+				}
+			}
+
 			time.Sleep(l.config.GetDuration("delay"))
 
 			fave := &twitter.FavoriteCreateParams{
@@ -62,16 +69,12 @@ func (l *Likelo) Run() {
 				log.Warning(err)
 			}
 
-			log.Infof("tweet: %s user: %s is liked!", tweet.Text, tweet.User.Name)
+			log.Infof("tweet: %s user: %s is liked!", tweet.Text, tweet.User.ScreenName)
 		}(tweet)
 	}
 
 	demux.DM = func(dm *twitter.DirectMessage) {
 		fmt.Println(dm.SenderID)
-	}
-
-	demux.Event = func(event *twitter.Event) {
-		log.Infof("new event occurred, event: %v", event)
 	}
 
 	fmt.Println("Starting Stream...")
